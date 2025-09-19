@@ -11,7 +11,7 @@ import Marketing from "./marketing";
 
 function App() {
   return (
-    <Router basename="/agriculture">   {/* ✅ Add this line */}
+    <Router basename="/agriculture-process">   {/* ✅ Add this line */}
       <Navbar />
       <Routes>
         <Route path="/" element={<Landing />} />
