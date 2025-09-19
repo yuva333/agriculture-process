@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import agriVideo from "/agrivideo.mp4";
 
 const Landing = () => {
   const [text, setText] = useState("");
@@ -51,7 +52,7 @@ const Landing = () => {
           zIndex: -2,
         }}
       >
-        <source src="/agrivideo.mp4" type="video/mp4" />
+        <source src={agriVideo} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
