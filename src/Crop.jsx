@@ -383,7 +383,7 @@ const styles = {
     borderRadius: "50%",
     transition: "transform 0.3s, box-shadow 0.3s",
     cursor: "pointer",
-    transition: "transform 0.3s, box-shadow 0.3s ease-in-out",
+    // transition: "transform 0.3s, box-shadow 0.3s ease-in-out",
 
   },
 };
